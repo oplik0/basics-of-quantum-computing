@@ -1,0 +1,11 @@
+name: basics-of-quantum-computing
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip>=20.3.3
+  - python=3.8
+  - matplotlib
+  - numpy
+  - pip:
+      - qiskit[visualization]
